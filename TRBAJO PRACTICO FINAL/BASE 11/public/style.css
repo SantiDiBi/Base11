@@ -1,0 +1,209 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    height: 130px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(200, 200, 200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo-db11 {
+    justify-content: left;
+    width: 60x;
+    height: 30px;
+    margin-left: 11px;
+}
+
+.nav {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 130px;
+    line-height: 130px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{ 
+    list-style:none;
+    display: list-item;
+}
+
+.a1{
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    display: block;
+}
+
+.titulo-vinilos {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    margin: 20px;
+    padding-top: 140px;
+    margin-left: 650px;
+}
+
+.vinilos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.img{
+    margin: 5px;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.seguinos{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+}
+
+.contacto{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+}
+
+.mercado-libre{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+    margin-top: 24px;
+}
+
+.acerca-de{
+    padding-top: 6rem;
+}
+
+.formulario{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-form{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+textarea{
+    resize: vertical;
+}
+
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover{
+    background-color: aliceblue;
+}
+
+
+@media (max-width: 1199px){
+    .vinilos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .titulo-vinilos {
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: rgb(53, 53, 53);
+        text-align: center;
+        margin: 20px;
+        padding-top: 140px;
+        align-items: center;
+    }
+}
